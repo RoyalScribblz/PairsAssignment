@@ -1,0 +1,67 @@
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\PairsAssignment.exe.config
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\PairsAssignment.exe
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\PairsAssignment.pdb
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.AssemblyReference.cache
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.Form1.resources
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.Properties.Resources.resources
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.GenerateResource.cache
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.exe
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.pdb
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Buffers.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Memory.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.ValueTuple.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Buffers.xml
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Memory.xml
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.ValueTuple.xml
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.CopyComplete
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\Newtonsoft.Json.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\Newtonsoft.Json.xml
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.AboutPage.resources
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\PairsAssignment.exe.config
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\PairsAssignment.exe
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\PairsAssignment.pdb
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\Newtonsoft.Json.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Buffers.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Memory.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Numerics.Vectors.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Text.Encodings.Web.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.ValueTuple.dll
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\Newtonsoft.Json.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Buffers.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Memory.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Numerics.Vectors.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Text.Encodings.Web.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.ValueTuple.xml
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.AssemblyReference.cache
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.SuggestedBindingRedirects.cache
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.AboutPage.resources
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.Form1.resources
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.PlayerNameEntry.resources
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.Properties.Resources.resources
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.GenerateResource.cache
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.CoreCompileInputs.cache
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.CopyComplete
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.exe
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.pdb
