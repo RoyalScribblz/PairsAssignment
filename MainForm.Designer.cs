@@ -2,7 +2,7 @@
 
 namespace PairsAssignment
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace PairsAssignment
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.miniToolStrip = new System.Windows.Forms.ToolStrip();
             this.GameDropdown = new System.Windows.Forms.ToolStripDropDownButton();
             this.NewGameButton = new System.Windows.Forms.ToolStripMenuItem();
@@ -395,7 +395,7 @@ namespace PairsAssignment
             this.Controls.Add(this.miniToolStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(15, 15);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Pairs";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.miniToolStrip.ResumeLayout(false);
