@@ -19,13 +19,13 @@ namespace PairsAssignment
         private int _p1Score, _p2Score;
         public readonly OpenFileDialog OpenFileDialog = new();
         public readonly SaveFileDialog SaveFileDialog = new();
-        private readonly Form1 _form1;
+        private readonly MainForm _mainForm;
 
-        public Game(Form1 form1, TableLayoutPanel cardGrid, PictureBox cardSelected11, PictureBox cardSelected12,
+        public Game(MainForm mainForm, TableLayoutPanel cardGrid, PictureBox cardSelected11, PictureBox cardSelected12,
             PictureBox cardSelected21, PictureBox cardSelected22, Label pairsFoundLbl1, Label pairsFoundLbl2,
             TextBox p1NameInput, TextBox p2NameInput, PictureBox yourTurn1, PictureBox yourTurn2, PictureBox backgroundImage)
         {
-            _form1 = form1;
+            _mainForm = mainForm;
             _cardGrid = cardGrid;
             _cardSelected11 = cardSelected11;
             _cardSelected12 = cardSelected12;
@@ -109,8 +109,8 @@ namespace PairsAssignment
             }
             
             // check if names are empty and force them to enter a name
-            if (_p1NameInput.Text == "") _p1NameInput.Text = PlayerNameEntry.GetName(_form1, "1");
-            if (_p2NameInput.Text == "") _p2NameInput.Text = PlayerNameEntry.GetName(_form1, "2");
+            if (_p1NameInput.Text == "") _p1NameInput.Text = PlayerNameEntry.GetName(_mainForm, "1");
+            if (_p2NameInput.Text == "") _p2NameInput.Text = PlayerNameEntry.GetName(_mainForm, "2");
 
             _backgroundImage.Visible = false;
             _gameActive = true;
@@ -303,6 +303,8 @@ namespace PairsAssignment
             
             if (gameData == null) return;  // no game in the save file
 
+            ClearGame();
+            
             _playerOneTurn = gameData.PlayerOneTurn;
             _p1NameInput.Text = gameData.P1Name;
             _p2NameInput.Text = gameData.P2Name;

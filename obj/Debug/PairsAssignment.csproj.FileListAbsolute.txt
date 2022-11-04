@@ -57,7 +57,6 @@ C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\System.Valu
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.AssemblyReference.cache
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.SuggestedBindingRedirects.cache
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.AboutPage.resources
-C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.Form1.resources
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.PlayerNameEntry.resources
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.Properties.Resources.resources
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.GenerateResource.cache
@@ -65,3 +64,4 @@ C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssign
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.csproj.CopyComplete
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.exe
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.pdb
+C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.MainForm.resources
