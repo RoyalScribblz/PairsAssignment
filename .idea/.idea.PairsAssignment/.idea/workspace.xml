@@ -4,19 +4,16 @@
     <projectFile>PairsAssignment.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="Added dialog entry for names but enter key doesnt work">
+    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="Clear on load game files">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_04_11_2022_11_29__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_04_11_2022_11_29__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_29_10_2022_18_13_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_29_10_2022_18_13__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Form1.resx" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PairsAssignment.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PairsAssignment.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerNameEntry.Designer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.Form1.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.PlayerNameEntry.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.PlayerNameEntry.resources" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" afterDir="false" />
@@ -97,6 +94,8 @@
       <workItem from="1667404996651" duration="541000" />
       <workItem from="1667405589969" duration="811000" />
       <workItem from="1667558728902" duration="1351000" />
+      <workItem from="1667561296256" duration="306000" />
+      <workItem from="1667912911280" duration="2486000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666797086221</created>
@@ -147,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667399299807</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Clear on load game">
+      <created>1667561319853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667561319853</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Clear on load game files">
+      <created>1667561361853</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667561361853</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +190,8 @@
     <MESSAGE value="Changed yourturn to image" />
     <MESSAGE value="rremove card.cs" />
     <MESSAGE value="Added dialog entry for names but enter key doesnt work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added dialog entry for names but enter key doesnt work" />
+    <MESSAGE value="Clear on load game" />
+    <MESSAGE value="Clear on load game files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clear on load game files" />
   </component>
 </project>

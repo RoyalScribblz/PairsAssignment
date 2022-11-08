@@ -75,7 +75,7 @@ namespace PairsAssignment
             {
                 DialogResult result = MessageBox.Show("Resizing the grid during a game will clear the current game, are you sure you would like to continue?",
                     "Resize Game", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes) ClearGame();
+                if (result == DialogResult.Yes) ClearGame(false);
                 else return;
             }
             
@@ -104,7 +104,7 @@ namespace PairsAssignment
             {
                 DialogResult result = MessageBox.Show("Starting a new game will clear the current game, are you sure you would like to continue?",
                     "New Game", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes) ClearGame();
+                if (result == DialogResult.Yes) ClearGame(false);
                 else return;
             }
             
@@ -121,6 +121,7 @@ namespace PairsAssignment
             _yourTurn1.Visible = true;
             _yourTurn2.Visible = false;
 
+            // create a new 2D of cards
             _cards = new int[_cardGrid.RowCount, _cardGrid.ColumnCount];
             int[,] randomCards = Cards.GetRandomPairs(_cardGrid.RowCount * _cardGrid.ColumnCount, _cardGrid.RowCount);
             FillCardGrid(randomCards);
@@ -164,12 +165,13 @@ namespace PairsAssignment
                 }
             }
 
-            // correct sizing of right column and bottom row by setting the width and height to the first button
+            // correct sizing of right column and bottom row by setting the width and height to the first button as they were larger due to TableLayoutPanel
             for (int index = 0; index < _cardGrid.Controls.Count; index++)
             {
+                // check if the card is on the last row or column
                 if (index % _cardGrid.RowCount != _cardGrid.RowCount - 1 && index < _cardGrid.Controls.Count - _cardGrid.RowCount) continue;
                 _cardGrid.Controls[index].Dock = DockStyle.None;
-                _cardGrid.Controls[index].Height = _cardGrid.Controls[0].Height;
+                _cardGrid.Controls[index].Height = _cardGrid.Controls[0].Height;  // resize to first buttons size
                 _cardGrid.Controls[index].Width = _cardGrid.Controls[0].Width;
             }
         }
@@ -219,7 +221,7 @@ namespace PairsAssignment
                     if (_p1Score > _p2Score) MessageBox.Show(_p1NameInput.Text + " Won!");
                     else if (_p1Score < _p2Score) MessageBox.Show(_p2NameInput.Text + " Won!");
                     else MessageBox.Show("It was a draw!");
-                    ClearGame();  // clear game once the messagebox is pressed so a new one can start
+                    ClearGame(false);  // clear game once the messagebox is pressed so a new one can start
                 }
                 else  // game not finished
                 {
@@ -291,7 +293,7 @@ namespace PairsAssignment
             string jsonResult = JsonConvert.SerializeObject(gameData, Formatting.Indented);
             if (File.Exists(filePath)) File.Delete(filePath);
             using (StreamWriter streamWriter = new StreamWriter(filePath, true)) streamWriter.WriteLine(jsonResult);
-            ClearGame();
+            ClearGame(false);
         }
 
         /// <summary>Load a saved game from a file using the GameData object.</summary>
@@ -303,7 +305,7 @@ namespace PairsAssignment
             
             if (gameData == null) return;  // no game in the save file
 
-            ClearGame();
+            ClearGame(true);
             
             _playerOneTurn = gameData.PlayerOneTurn;
             _p1NameInput.Text = gameData.P1Name;
@@ -331,11 +333,15 @@ namespace PairsAssignment
         }
 
         /// <summary>Reset all game variables.</summary>
-        private void ClearGame()
+        private void ClearGame(bool resetNames)
         {
             // set names to nothing, pairs found to none, remove buttons, remove images in currently selected, set inactive
-            DialogResult result = MessageBox.Show("Would you like to keep the currently set player names?",
-                "Player Names", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            DialogResult result = DialogResult.No;  // remove names by default
+            if (resetNames)
+            {
+                result = MessageBox.Show("Would you like to keep the currently set player names?",
+                    "Player Names", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            }
             if (result == DialogResult.No) _p1NameInput.Text = _p2NameInput.Text = "";
             
             _pairsFoundLbl1.Text = _pairsFoundLbl2.Text = "Pairs Found: 0";
