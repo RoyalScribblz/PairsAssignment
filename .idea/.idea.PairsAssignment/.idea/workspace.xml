@@ -4,17 +4,15 @@
     <projectFile>PairsAssignment.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="Clear on load game files">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_04_11_2022_11_29__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_04_11_2022_11_29__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_29_10_2022_18_13_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_29_10_2022_18_13__Changes_.xml" beforeDir="false" />
+    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="dont ask for name change on load game">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PlayerNameEntry.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerNameEntry.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerNameEntry.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.PlayerNameEntry.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.PlayerNameEntry.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" afterDir="false" />
     </list>
@@ -95,7 +93,8 @@
       <workItem from="1667405589969" duration="811000" />
       <workItem from="1667558728902" duration="1351000" />
       <workItem from="1667561296256" duration="306000" />
-      <workItem from="1667912911280" duration="2486000" />
+      <workItem from="1667912911280" duration="8076000" />
+      <workItem from="1667924486065" duration="12485000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666797086221</created>
@@ -160,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667561361853</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="dont ask for name change on load game">
+      <created>1667915851755</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667915851755</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +198,7 @@
     <MESSAGE value="Added dialog entry for names but enter key doesnt work" />
     <MESSAGE value="Clear on load game" />
     <MESSAGE value="Clear on load game files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clear on load game files" />
+    <MESSAGE value="dont ask for name change on load game" />
+    <option name="LAST_COMMIT_MESSAGE" value="dont ask for name change on load game" />
   </component>
 </project>

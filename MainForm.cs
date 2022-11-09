@@ -77,5 +77,14 @@ namespace PairsAssignment
         {
             return Image.FromFile(Path.Combine(Directory.GetCurrentDirectory(), relativePath));
         }
+
+        /// <summary>Fix the edge button sizes, then resize images on the buttons to the button size, when resizing the form.</summary>
+        /// <param name="sender">Event sender.</param>
+        /// <param name="e">Event arguments.</param>
+        private void MainForm_Resize(object sender, EventArgs e)
+        {
+            _game.EdgeResizeFix();  // fix button sizes, then fix image sizes
+            foreach (Button card in CardGrid.Controls) card.Image = new Bitmap(card.Image, card.Width, card.Height);
+        }
     }
 }

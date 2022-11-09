@@ -5,7 +5,7 @@ namespace PairsAssignment;
 
 public partial class PlayerNameEntry : Form
 {
-    //TODO set image of this form to the .ico
+    private static bool _exitGameCreation;
     private PlayerNameEntry()
     {
         InitializeComponent();
@@ -13,13 +13,15 @@ public partial class PlayerNameEntry : Form
 
     private void Close(object sender, EventArgs e)
     {
+        if (sender == CancelButton) _exitGameCreation = true;
         Close();
     }
 
     public static string GetName(Form parent, string playerNumber)
     {
+        _exitGameCreation = false;
         string name = "";
-        while (name == "")
+        while (name == "" && !_exitGameCreation)
         {
             PlayerNameEntry playerNameEntry = new();
             playerNameEntry.NameEntryLabel.Text = "Please enter a name for player " + playerNumber + ":";
@@ -28,13 +30,18 @@ public partial class PlayerNameEntry : Form
             name = playerNameEntry.NameEntry.Text;
         }
 
-        return name;
+        return _exitGameCreation ? null : name;
     }
 
-
-    private void PlayerNameEntry_KeyDown(object sender, KeyEventArgs e)
+    /// <summary>Allow the user to press enter or escape to close the entry box.</summary>
+    /// <param name="msg">A Message, passed by reference, that represents the Win32 message to process.</param>
+    /// <param name="keyData">One of the Keys values that represents the key to process.</param>
+    /// <returns>The base ProcessCmdKey</returns>
+    protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
     {
-        if (e.KeyCode == Keys.Enter) Close();
-        // TODO dont work
+        if (keyData is not (Keys.Enter or Keys.Escape)) return base.ProcessCmdKey(ref msg, keyData);
+        if (keyData == Keys.Escape) _exitGameCreation = true;
+        Close();
+        return base.ProcessCmdKey(ref msg, keyData);
     }
 }

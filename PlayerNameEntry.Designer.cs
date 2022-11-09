@@ -66,6 +66,7 @@ partial class PlayerNameEntry
         // 
         // CancelButton
         // 
+        this.CancelButton.DialogResult = System.Windows.Forms.DialogResult.Cancel;
         this.CancelButton.Location = new System.Drawing.Point(247, 37);
         this.CancelButton.Name = "CancelButton";
         this.CancelButton.Size = new System.Drawing.Size(77, 24);
@@ -87,7 +88,6 @@ partial class PlayerNameEntry
         this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
         this.Name = "PlayerNameEntry";
         this.Text = "Enter Name";
-        this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.PlayerNameEntry_KeyDown);
         this.ResumeLayout(false);
         this.PerformLayout();
     }

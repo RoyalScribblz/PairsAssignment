@@ -46,8 +46,6 @@ namespace PairsAssignment
             this.Size16Button = new System.Windows.Forms.ToolStripMenuItem();
             this.HelpDropdown = new System.Windows.Forms.ToolStripDropDownButton();
             this.AboutButton = new System.Windows.Forms.ToolStripMenuItem();
-            this.PlayerOneUIBox = new System.Windows.Forms.Label();
-            this.PlayerTwoUIBox = new System.Windows.Forms.Label();
             this.Player1NameInput = new System.Windows.Forms.TextBox();
             this.Player2NameInput = new System.Windows.Forms.TextBox();
             this.PairsFoundLbl1 = new System.Windows.Forms.Label();
@@ -63,6 +61,13 @@ namespace PairsAssignment
             this.BackgroundImage = new System.Windows.Forms.PictureBox();
             this.YourTurn1 = new System.Windows.Forms.PictureBox();
             this.YourTurn2 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.Player1NameLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.Player2NameLabel = new System.Windows.Forms.Label();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.miniToolStrip.SuspendLayout();
             this.CardsSelected1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CardSelected12)).BeginInit();
@@ -73,18 +78,22 @@ namespace PairsAssignment
             ((System.ComponentModel.ISupportInitialize)(this.BackgroundImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn2)).BeginInit();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            this.tableLayoutPanel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // miniToolStrip
             // 
             this.miniToolStrip.AutoSize = false;
             this.miniToolStrip.CanOverflow = false;
-            this.miniToolStrip.Dock = System.Windows.Forms.DockStyle.None;
             this.miniToolStrip.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
             this.miniToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { this.GameDropdown, this.SettingsDropdown, this.HelpDropdown });
             this.miniToolStrip.Location = new System.Drawing.Point(0, 0);
             this.miniToolStrip.Name = "miniToolStrip";
-            this.miniToolStrip.Size = new System.Drawing.Size(1340, 27);
+            this.miniToolStrip.Size = new System.Drawing.Size(1338, 27);
             this.miniToolStrip.TabIndex = 0;
             // 
             // GameDropdown
@@ -192,50 +201,31 @@ namespace PairsAssignment
             this.AboutButton.Text = "About";
             this.AboutButton.Click += new System.EventHandler(this.AboutButton_Click);
             // 
-            // PlayerOneUIBox
-            // 
-            this.PlayerOneUIBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
-            this.PlayerOneUIBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlayerOneUIBox.ForeColor = System.Drawing.Color.White;
-            this.PlayerOneUIBox.Location = new System.Drawing.Point(34, 64);
-            this.PlayerOneUIBox.Name = "PlayerOneUIBox";
-            this.PlayerOneUIBox.Size = new System.Drawing.Size(232, 916);
-            this.PlayerOneUIBox.TabIndex = 1;
-            this.PlayerOneUIBox.Text = "Player 1 Name";
-            // 
-            // PlayerTwoUIBox
-            // 
-            this.PlayerTwoUIBox.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
-            this.PlayerTwoUIBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.PlayerTwoUIBox.ForeColor = System.Drawing.Color.White;
-            this.PlayerTwoUIBox.Location = new System.Drawing.Point(1081, 64);
-            this.PlayerTwoUIBox.Name = "PlayerTwoUIBox";
-            this.PlayerTwoUIBox.Size = new System.Drawing.Size(232, 916);
-            this.PlayerTwoUIBox.TabIndex = 2;
-            this.PlayerTwoUIBox.Text = "Player 2 Name";
-            // 
             // Player1NameInput
             // 
-            this.Player1NameInput.Location = new System.Drawing.Point(45, 98);
+            this.Player1NameInput.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Player1NameInput.Location = new System.Drawing.Point(3, 33);
             this.Player1NameInput.Name = "Player1NameInput";
-            this.Player1NameInput.Size = new System.Drawing.Size(211, 22);
+            this.Player1NameInput.Size = new System.Drawing.Size(228, 22);
             this.Player1NameInput.TabIndex = 3;
             // 
             // Player2NameInput
             // 
-            this.Player2NameInput.Location = new System.Drawing.Point(1092, 98);
+            this.Player2NameInput.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Player2NameInput.Location = new System.Drawing.Point(3, 33);
             this.Player2NameInput.Name = "Player2NameInput";
-            this.Player2NameInput.Size = new System.Drawing.Size(211, 22);
+            this.Player2NameInput.Size = new System.Drawing.Size(228, 22);
             this.Player2NameInput.TabIndex = 4;
             // 
             // PairsFoundLbl1
             // 
             this.PairsFoundLbl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.PairsFoundLbl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PairsFoundLbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PairsFoundLbl1.ForeColor = System.Drawing.Color.White;
-            this.PairsFoundLbl1.Location = new System.Drawing.Point(45, 155);
+            this.PairsFoundLbl1.Location = new System.Drawing.Point(3, 85);
             this.PairsFoundLbl1.Name = "PairsFoundLbl1";
-            this.PairsFoundLbl1.Size = new System.Drawing.Size(171, 33);
+            this.PairsFoundLbl1.Size = new System.Drawing.Size(228, 35);
             this.PairsFoundLbl1.TabIndex = 5;
             this.PairsFoundLbl1.Text = "Pairs Found: 0";
             // 
@@ -244,9 +234,9 @@ namespace PairsAssignment
             this.PairsFoundLbl2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.PairsFoundLbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PairsFoundLbl2.ForeColor = System.Drawing.Color.White;
-            this.PairsFoundLbl2.Location = new System.Drawing.Point(1092, 155);
+            this.PairsFoundLbl2.Location = new System.Drawing.Point(3, 86);
             this.PairsFoundLbl2.Name = "PairsFoundLbl2";
-            this.PairsFoundLbl2.Size = new System.Drawing.Size(171, 33);
+            this.PairsFoundLbl2.Size = new System.Drawing.Size(228, 35);
             this.PairsFoundLbl2.TabIndex = 6;
             this.PairsFoundLbl2.Text = "Pairs Found: 0";
             // 
@@ -255,18 +245,19 @@ namespace PairsAssignment
             this.CardsSelected1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.CardsSelected1.Controls.Add(this.CardSelected12);
             this.CardsSelected1.Controls.Add(this.CardSelected11);
+            this.CardsSelected1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CardsSelected1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CardsSelected1.ForeColor = System.Drawing.Color.White;
-            this.CardsSelected1.Location = new System.Drawing.Point(44, 425);
+            this.CardsSelected1.Location = new System.Drawing.Point(3, 376);
             this.CardsSelected1.Name = "CardsSelected1";
-            this.CardsSelected1.Size = new System.Drawing.Size(211, 542);
+            this.CardsSelected1.Size = new System.Drawing.Size(228, 571);
             this.CardsSelected1.TabIndex = 7;
             this.CardsSelected1.TabStop = false;
             this.CardsSelected1.Text = "Cards Selected";
             // 
             // CardSelected12
             // 
-            this.CardSelected12.Location = new System.Drawing.Point(25, 304);
+            this.CardSelected12.Location = new System.Drawing.Point(34, 305);
             this.CardSelected12.Name = "CardSelected12";
             this.CardSelected12.Size = new System.Drawing.Size(160, 208);
             this.CardSelected12.TabIndex = 1;
@@ -274,7 +265,7 @@ namespace PairsAssignment
             // 
             // CardSelected11
             // 
-            this.CardSelected11.Location = new System.Drawing.Point(25, 44);
+            this.CardSelected11.Location = new System.Drawing.Point(34, 45);
             this.CardSelected11.Name = "CardSelected11";
             this.CardSelected11.Size = new System.Drawing.Size(160, 208);
             this.CardSelected11.TabIndex = 0;
@@ -285,18 +276,19 @@ namespace PairsAssignment
             this.CardsSelected2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.CardsSelected2.Controls.Add(this.CardSelected22);
             this.CardsSelected2.Controls.Add(this.CardSelected21);
+            this.CardsSelected2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CardsSelected2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CardsSelected2.ForeColor = System.Drawing.Color.White;
-            this.CardsSelected2.Location = new System.Drawing.Point(1092, 425);
+            this.CardsSelected2.Location = new System.Drawing.Point(3, 377);
             this.CardsSelected2.Name = "CardsSelected2";
-            this.CardsSelected2.Size = new System.Drawing.Size(211, 542);
+            this.CardsSelected2.Size = new System.Drawing.Size(228, 570);
             this.CardsSelected2.TabIndex = 8;
             this.CardsSelected2.TabStop = false;
             this.CardsSelected2.Text = "Cards Selected";
             // 
             // CardSelected22
             // 
-            this.CardSelected22.Location = new System.Drawing.Point(26, 304);
+            this.CardSelected22.Location = new System.Drawing.Point(36, 304);
             this.CardSelected22.Name = "CardSelected22";
             this.CardSelected22.Size = new System.Drawing.Size(160, 208);
             this.CardSelected22.TabIndex = 3;
@@ -304,7 +296,7 @@ namespace PairsAssignment
             // 
             // CardSelected21
             // 
-            this.CardSelected21.Location = new System.Drawing.Point(26, 44);
+            this.CardSelected21.Location = new System.Drawing.Point(36, 44);
             this.CardSelected21.Name = "CardSelected21";
             this.CardSelected21.Size = new System.Drawing.Size(160, 208);
             this.CardSelected21.TabIndex = 2;
@@ -312,10 +304,11 @@ namespace PairsAssignment
             // 
             // CopyrightLabel
             // 
+            this.CopyrightLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CopyrightLabel.ForeColor = System.Drawing.Color.White;
-            this.CopyrightLabel.Location = new System.Drawing.Point(1101, 992);
+            this.CopyrightLabel.Location = new System.Drawing.Point(1070, 975);
             this.CopyrightLabel.Name = "CopyrightLabel";
-            this.CopyrightLabel.Size = new System.Drawing.Size(201, 23);
+            this.CopyrightLabel.Size = new System.Drawing.Size(234, 21);
             this.CopyrightLabel.TabIndex = 9;
             this.CopyrightLabel.Text = "Copyright © 2022 James Lloyd";
             // 
@@ -328,7 +321,8 @@ namespace PairsAssignment
             this.CardGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.CardGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.CardGrid.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.CardGrid.Location = new System.Drawing.Point(289, 64);
+            this.CardGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CardGrid.Location = new System.Drawing.Point(295, 22);
             this.CardGrid.Name = "CardGrid";
             this.CardGrid.RowCount = 6;
             this.CardGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
@@ -337,28 +331,30 @@ namespace PairsAssignment
             this.CardGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.CardGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.CardGrid.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.CardGrid.Size = new System.Drawing.Size(776, 916);
+            this.CardGrid.Size = new System.Drawing.Size(743, 950);
             this.CardGrid.TabIndex = 10;
             // 
             // BackgroundImage
             // 
             this.BackgroundImage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BackgroundImage.BackgroundImage")));
             this.BackgroundImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BackgroundImage.Location = new System.Drawing.Point(282, 58);
+            this.BackgroundImage.Location = new System.Drawing.Point(295, 49);
             this.BackgroundImage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BackgroundImage.Name = "BackgroundImage";
-            this.BackgroundImage.Size = new System.Drawing.Size(782, 934);
+            this.BackgroundImage.Size = new System.Drawing.Size(743, 950);
             this.BackgroundImage.TabIndex = 5;
             this.BackgroundImage.TabStop = false;
+            this.BackgroundImage.Visible = false;
             // 
             // YourTurn1
             // 
             this.YourTurn1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.YourTurn1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("YourTurn1.BackgroundImage")));
             this.YourTurn1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.YourTurn1.Location = new System.Drawing.Point(81, 262);
+            this.YourTurn1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.YourTurn1.Location = new System.Drawing.Point(16, 3);
             this.YourTurn1.Name = "YourTurn1";
-            this.YourTurn1.Size = new System.Drawing.Size(135, 70);
+            this.YourTurn1.Size = new System.Drawing.Size(194, 117);
             this.YourTurn1.TabIndex = 11;
             this.YourTurn1.TabStop = false;
             // 
@@ -367,37 +363,152 @@ namespace PairsAssignment
             this.YourTurn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.YourTurn2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("YourTurn2.BackgroundImage")));
             this.YourTurn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.YourTurn2.Location = new System.Drawing.Point(1127, 262);
+            this.YourTurn2.Location = new System.Drawing.Point(16, 3);
             this.YourTurn2.Name = "YourTurn2";
-            this.YourTurn2.Size = new System.Drawing.Size(135, 70);
+            this.YourTurn2.Size = new System.Drawing.Size(194, 116);
             this.YourTurn2.TabIndex = 12;
             this.YourTurn2.TabStop = false;
             // 
-            // Form1
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 7;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.Controls.Add(this.CopyrightLabel, 5, 2);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.CardGrid, 3, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 5, 1);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 27);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 3;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 96F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1338, 996);
+            this.tableLayoutPanel1.TabIndex = 13;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.tableLayoutPanel2.ColumnCount = 1;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.Player1NameLabel, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.CardsSelected1, 0, 6);
+            this.tableLayoutPanel2.Controls.Add(this.Player1NameInput, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.PairsFoundLbl1, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel4, 0, 4);
+            this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(29, 22);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 7;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.20442F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.856354F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.756906F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.281768F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.70166F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.977901F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.77348F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(234, 950);
+            this.tableLayoutPanel2.TabIndex = 10;
+            // 
+            // Player1NameLabel
+            // 
+            this.Player1NameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Player1NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player1NameLabel.ForeColor = System.Drawing.Color.White;
+            this.Player1NameLabel.Location = new System.Drawing.Point(3, 0);
+            this.Player1NameLabel.Name = "Player1NameLabel";
+            this.Player1NameLabel.Size = new System.Drawing.Size(228, 30);
+            this.Player1NameLabel.TabIndex = 0;
+            this.Player1NameLabel.Text = "Player 1 Name";
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 3;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 88F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.tableLayoutPanel4.Controls.Add(this.YourTurn1, 1, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 210);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(228, 123);
+            this.tableLayoutPanel4.TabIndex = 8;
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
+            this.tableLayoutPanel3.ColumnCount = 1;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel3.Controls.Add(this.Player2NameLabel, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.Player2NameInput, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.CardsSelected2, 0, 6);
+            this.tableLayoutPanel3.Controls.Add(this.PairsFoundLbl2, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.tableLayoutPanel5, 0, 4);
+            this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(1070, 22);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 7;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.20442F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 5.966851F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.977901F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.834254F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.48066F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 3.20442F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60.22099F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(234, 950);
+            this.tableLayoutPanel3.TabIndex = 11;
+            // 
+            // Player2NameLabel
+            // 
+            this.Player2NameLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.Player2NameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Player2NameLabel.ForeColor = System.Drawing.Color.White;
+            this.Player2NameLabel.Location = new System.Drawing.Point(3, 0);
+            this.Player2NameLabel.Name = "Player2NameLabel";
+            this.Player2NameLabel.Size = new System.Drawing.Size(228, 30);
+            this.Player2NameLabel.TabIndex = 0;
+            this.Player2NameLabel.Text = "Player 2 Name";
+            // 
+            // tableLayoutPanel5
+            // 
+            this.tableLayoutPanel5.ColumnCount = 3;
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 88F));
+            this.tableLayoutPanel5.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 6F));
+            this.tableLayoutPanel5.Controls.Add(this.YourTurn2, 1, 0);
+            this.tableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel5.Location = new System.Drawing.Point(3, 219);
+            this.tableLayoutPanel5.Name = "tableLayoutPanel5";
+            this.tableLayoutPanel5.RowCount = 1;
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel5.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 122F));
+            this.tableLayoutPanel5.Size = new System.Drawing.Size(228, 122);
+            this.tableLayoutPanel5.TabIndex = 9;
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
-            this.ClientSize = new System.Drawing.Size(1340, 1023);
-            this.Controls.Add(this.YourTurn2);
-            this.Controls.Add(this.YourTurn1);
+            this.ClientSize = new System.Drawing.Size(1338, 1023);
             this.Controls.Add(this.BackgroundImage);
-            this.Controls.Add(this.CardGrid);
-            this.Controls.Add(this.CopyrightLabel);
-            this.Controls.Add(this.CardsSelected2);
-            this.Controls.Add(this.CardsSelected1);
-            this.Controls.Add(this.PairsFoundLbl2);
-            this.Controls.Add(this.PairsFoundLbl1);
-            this.Controls.Add(this.Player2NameInput);
-            this.Controls.Add(this.Player1NameInput);
-            this.Controls.Add(this.PlayerTwoUIBox);
-            this.Controls.Add(this.PlayerOneUIBox);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.miniToolStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(15, 15);
             this.Name = "MainForm";
             this.Text = "Pairs";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResizeEnd += new System.EventHandler(this.MainForm_Resize);
             this.miniToolStrip.ResumeLayout(false);
             this.miniToolStrip.PerformLayout();
             this.CardsSelected1.ResumeLayout(false);
@@ -409,15 +520,35 @@ namespace PairsAssignment
             ((System.ComponentModel.ISupportInitialize)(this.BackgroundImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn2)).EndInit();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            this.tableLayoutPanel5.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
         }
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel5;
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+
+        private System.Windows.Forms.Label Player2NameLabel;
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+
+        private System.Windows.Forms.Label Player1NameLabel;
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
 
         private System.Windows.Forms.PictureBox YourTurn2;
 
         private System.Windows.Forms.PictureBox YourTurn1;
 
-        private new System.Windows.Forms.PictureBox BackgroundImage;
+        private System.Windows.Forms.PictureBox BackgroundImage;
 
         private System.Windows.Forms.TableLayoutPanel CardGrid;
 
@@ -436,10 +567,6 @@ namespace PairsAssignment
         private System.Windows.Forms.TextBox Player1NameInput;
         private System.Windows.Forms.TextBox Player2NameInput;
         private System.Windows.Forms.Label PairsFoundLbl1;
-
-        private System.Windows.Forms.Label PlayerTwoUIBox;
-
-        private System.Windows.Forms.Label PlayerOneUIBox;
 
         private System.Windows.Forms.ToolStripMenuItem AboutButton;
 

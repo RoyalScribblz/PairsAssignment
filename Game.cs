@@ -109,8 +109,14 @@ namespace PairsAssignment
             }
             
             // check if names are empty and force them to enter a name
-            if (_p1NameInput.Text == "") _p1NameInput.Text = PlayerNameEntry.GetName(_mainForm, "1");
-            if (_p2NameInput.Text == "") _p2NameInput.Text = PlayerNameEntry.GetName(_mainForm, "2");
+            TextBox[] nameInputs = { _p1NameInput, _p2NameInput };
+            for (int nameInput = 0; nameInput < nameInputs.Length; nameInput++)
+            {
+                if (nameInputs[nameInput].Text != "") continue;
+                string newName = PlayerNameEntry.GetName(_mainForm, (nameInput+1).ToString());
+                if (newName != null) nameInputs[nameInput].Text = newName;
+                else return;
+            }
 
             _backgroundImage.Visible = false;
             _gameActive = true;
@@ -155,9 +161,11 @@ namespace PairsAssignment
                 for (int column = 0; column < _cardGrid.ColumnCount; column++)
                 {
                     // set each cell in the TableLayoutGrid to be a button with a card image that runs MakeTurn on click
-                    Button cardButton = new Button();
+                    Button cardButton = new();
                     cardButton.Dock = DockStyle.Fill;
                     cardButton.Margin = new Padding(25/_cardGrid.RowCount);
+                    cardButton.FlatStyle = FlatStyle.Flat;
+                    cardButton.FlatAppearance.BorderSize = 0;
                     cardButton.Click += MakeTurn;
                     _cardGrid.Controls.Add(cardButton, column, row);
                     _cards[row, column] = cardIds[row, column];
@@ -165,6 +173,13 @@ namespace PairsAssignment
                 }
             }
 
+            EdgeResizeFix();
+        }
+
+        /// <summary>Correct the size of the last row and column to the same size as the first button.
+        /// This is caused by TableLayoutPanels peculiar management of the percent size and padding.</summary>
+        public void EdgeResizeFix()
+        {
             // correct sizing of right column and bottom row by setting the width and height to the first button as they were larger due to TableLayoutPanel
             for (int index = 0; index < _cardGrid.Controls.Count; index++)
             {
@@ -229,7 +244,7 @@ namespace PairsAssignment
                     // continue onto the next persons turn after a given amount of time
                     Task.Run(async delegate
                     {
-                        await Task.Delay(2000);
+                        await Task.Delay(10000);
                         NextTurn(54);
                     });
                 }
@@ -240,7 +255,7 @@ namespace PairsAssignment
                 // continue onto the next persons turn after a given amount of time
                 Task.Run(async delegate
                 {
-                    await Task.Delay(2000);
+                    await Task.Delay(10000);
                     NextTurn(55);
                 });
             }
