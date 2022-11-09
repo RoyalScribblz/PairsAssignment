@@ -987,6 +987,7 @@
   <data name="label2.Text" xml:space="preserve">
     <value>This application was developed by James Lloyd as an assigment for DTSP at Sheffield Hallam University, for the Programming Fundamentals module.
 
+The game window is resizeable by resizing the window. The elements self correct when the resize drag is completed.
 
 Photo by Velroy Fernandes from Pexels: https://www.pexels.com/photo/crop-player-holding-spadille-card-in-hand-4380020/</value>
   </data>
