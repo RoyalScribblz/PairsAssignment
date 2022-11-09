@@ -75,7 +75,7 @@ namespace PairsAssignment
             {
                 DialogResult result = MessageBox.Show("Resizing the grid during a game will clear the current game, are you sure you would like to continue?",
                     "Resize Game", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes) ClearGame(false);
+                if (result == DialogResult.Yes) ClearGame(true);
                 else return;
             }
             
@@ -104,7 +104,7 @@ namespace PairsAssignment
             {
                 DialogResult result = MessageBox.Show("Starting a new game will clear the current game, are you sure you would like to continue?",
                     "New Game", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-                if (result == DialogResult.Yes) ClearGame(false);
+                if (result == DialogResult.Yes) ClearGame(true);
                 else return;
             }
             
@@ -236,7 +236,7 @@ namespace PairsAssignment
                     if (_p1Score > _p2Score) MessageBox.Show(_p1NameInput.Text + " Won!");
                     else if (_p1Score < _p2Score) MessageBox.Show(_p2NameInput.Text + " Won!");
                     else MessageBox.Show("It was a draw!");
-                    ClearGame(false);  // clear game once the messagebox is pressed so a new one can start
+                    ClearGame(true);  // clear game once the messagebox is pressed so a new one can start
                 }
                 else  // game not finished
                 {
@@ -308,7 +308,7 @@ namespace PairsAssignment
             string jsonResult = JsonConvert.SerializeObject(gameData, Formatting.Indented);
             if (File.Exists(filePath)) File.Delete(filePath);
             using (StreamWriter streamWriter = new StreamWriter(filePath, true)) streamWriter.WriteLine(jsonResult);
-            ClearGame(false);
+            ClearGame(true);
         }
 
         /// <summary>Load a saved game from a file using the GameData object.</summary>
@@ -320,7 +320,7 @@ namespace PairsAssignment
             
             if (gameData == null) return;  // no game in the save file
 
-            ClearGame(true);
+            ClearGame(false);
             
             _playerOneTurn = gameData.PlayerOneTurn;
             _p1NameInput.Text = gameData.P1Name;
@@ -348,11 +348,11 @@ namespace PairsAssignment
         }
 
         /// <summary>Reset all game variables.</summary>
-        private void ClearGame(bool resetNames)
+        private void ClearGame(bool askResetNames)
         {
             // set names to nothing, pairs found to none, remove buttons, remove images in currently selected, set inactive
             DialogResult result = DialogResult.No;  // remove names by default
-            if (resetNames)
+            if (askResetNames)
             {
                 result = MessageBox.Show("Would you like to keep the currently set player names?",
                     "Player Names", MessageBoxButtons.YesNo, MessageBoxIcon.Question);

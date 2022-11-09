@@ -304,13 +304,14 @@ namespace PairsAssignment
             // 
             // CopyrightLabel
             // 
-            this.CopyrightLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.CopyrightLabel.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.CopyrightLabel.ForeColor = System.Drawing.Color.White;
             this.CopyrightLabel.Location = new System.Drawing.Point(1070, 975);
             this.CopyrightLabel.Name = "CopyrightLabel";
             this.CopyrightLabel.Size = new System.Drawing.Size(234, 21);
             this.CopyrightLabel.TabIndex = 9;
             this.CopyrightLabel.Text = "Copyright © 2022 James Lloyd";
+            this.CopyrightLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // CardGrid
             // 
@@ -344,7 +345,6 @@ namespace PairsAssignment
             this.BackgroundImage.Size = new System.Drawing.Size(743, 950);
             this.BackgroundImage.TabIndex = 5;
             this.BackgroundImage.TabStop = false;
-            this.BackgroundImage.Visible = false;
             // 
             // YourTurn1
             // 
