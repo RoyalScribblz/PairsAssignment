@@ -19,9 +19,9 @@ public partial class PlayerNameEntry : Form
 
     public static string GetName(Form parent, string playerNumber)
     {
-        _exitGameCreation = false;
+        _exitGameCreation = false;  // assume not exit
         string name = "";
-        while (name == "" && !_exitGameCreation)
+        while (name == "" && !_exitGameCreation)  // continue asking for input unless they want to exit or have submitted a name
         {
             PlayerNameEntry playerNameEntry = new();
             playerNameEntry.NameEntryLabel.Text = "Please enter a name for player " + playerNumber + ":";
@@ -30,7 +30,7 @@ public partial class PlayerNameEntry : Form
             name = playerNameEntry.NameEntry.Text;
         }
 
-        return _exitGameCreation ? null : name;
+        return _exitGameCreation ? null : name;  // if they want to exit return null if not return the name
     }
 
     /// <summary>Allow the user to press enter or escape to close the entry box.</summary>
@@ -40,8 +40,8 @@ public partial class PlayerNameEntry : Form
     protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
     {
         if (keyData is not (Keys.Enter or Keys.Escape)) return base.ProcessCmdKey(ref msg, keyData);
-        if (keyData == Keys.Escape) _exitGameCreation = true;
-        Close();
+        if (keyData == Keys.Escape) _exitGameCreation = true;  // exit new game if escape is pressed
+        Close();  // close the tab if either enter or escape has been pressed
         return base.ProcessCmdKey(ref msg, keyData);
     }
 }
