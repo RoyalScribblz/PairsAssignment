@@ -3,7 +3,6 @@ C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\PairsAssignment.exe
 C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\PairsAssignment.pdb
 C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.AssemblyReference.cache
 C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.SuggestedBindingRedirects.cache
-C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.Form1.resources
 C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.Properties.Resources.resources
 C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.GenerateResource.cache
 C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.CoreCompileInputs.cache
@@ -65,3 +64,5 @@ C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssign
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.exe
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.pdb
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.MainForm.resources
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.MainForm.resources
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.PlayerNameEntry.resources
