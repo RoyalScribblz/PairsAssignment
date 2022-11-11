@@ -11,12 +11,19 @@ public partial class PlayerNameEntry : Form
         InitializeComponent();
     }
 
+    /// <summary>Close the entry box if you press OK or Cancel.</summary>
+    /// <param name="sender">Button that fired the event.</param>
+    /// <param name="e">Event arguments.</param>
     private void Close(object sender, EventArgs e)
     {
         if (sender == CancelButton) _exitGameCreation = true;
         Close();
     }
 
+    /// <summary>Get a users name by making entry form objects until a name is entered or they cancel.</summary>
+    /// <param name="parent">Main form as parent.</param>
+    /// <param name="playerNumber">Player '1' or '2'.</param>
+    /// <returns>The new name string or null if they cancel.</returns>
     public static string GetName(Form parent, string playerNumber)
     {
         _exitGameCreation = false;  // assume not exit

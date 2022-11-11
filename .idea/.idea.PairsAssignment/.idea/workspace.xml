@@ -4,9 +4,9 @@
     <projectFile>PairsAssignment.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="Flex resizing functionality on the AboutPage">
+    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="try catch for retrieve">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerNameEntry.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,8 @@
       <workItem from="1667912911280" duration="8076000" />
       <workItem from="1667924486065" duration="12944000" />
       <workItem from="1668007290813" duration="727000" />
-      <workItem from="1668157293072" duration="315000" />
+      <workItem from="1668157293072" duration="2007000" />
+      <workItem from="1668167412595" duration="441000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666797086221</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668010015358</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="try catch for retrieve">
+      <created>1668157986123</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668157986123</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +225,7 @@
     <MESSAGE value="Resize fix, dialog box cancel exits the new game" />
     <MESSAGE value="Inverted ClearGame askResetNames values to be correct" />
     <MESSAGE value="Flex resizing functionality on the AboutPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Flex resizing functionality on the AboutPage" />
+    <MESSAGE value="try catch for retrieve" />
+    <option name="LAST_COMMIT_MESSAGE" value="try catch for retrieve" />
   </component>
 </project>
