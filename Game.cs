@@ -84,8 +84,7 @@ namespace PairsAssignment
             _cardGrid.ColumnStyles.Clear();
 
             // set the maximum amount of rows and columns to the correct size
-            _cardGrid.RowCount = size;
-            _cardGrid.ColumnCount = size;
+            _cardGrid.RowCount = _cardGrid.ColumnCount = size;
 
             // add the empty rows and columns
             for (int n = 0; n < size; n++)
@@ -118,14 +117,9 @@ namespace PairsAssignment
                 else return;
             }
 
-            _backgroundImage.Visible = false;
-            _gameActive = true;
-            _buttonsInactive = true;
-            _playerOneTurn = true;
-            _p1Score = 0;
-            _p2Score = 0;
-            _yourTurn1.Visible = true;
-            _yourTurn2.Visible = false;
+            _backgroundImage.Visible = _yourTurn2.Visible = false;
+            _gameActive = _buttonsInactive = _playerOneTurn = _yourTurn1.Visible = true;
+            _p1Score = _p2Score = 0;
 
             // create a new 2D of cards
             _cards = new int[_cardGrid.RowCount, _cardGrid.ColumnCount];
@@ -267,12 +261,9 @@ namespace PairsAssignment
         {
             SetObjImg(_cardOne, cardColour);
             SetObjImg(_cardTwo, cardColour);
-            _cardOne = null;
-            _cardTwo = null;
-            _cardSelected11.Image = null;  // clear the selected cards
-            _cardSelected12.Image = null;
-            _cardSelected21.Image = null;
-            _cardSelected22.Image = null;
+            // clear the selected cards
+            _cardOne = _cardTwo = null;
+            _cardSelected11.Image = _cardSelected12.Image = _cardSelected21.Image = _cardSelected22.Image = null;
             _playerOneTurn = !_playerOneTurn; // flip turn value
             _buttonsInactive = false;  // allow cards to be pressed again
 
@@ -369,8 +360,7 @@ namespace PairsAssignment
             _pairsFoundLbl1.Text = _pairsFoundLbl2.Text = "Pairs Found: 0";
             _cardGrid.Controls.Clear();  // remove all cards
             _cardSelected11.Image = _cardSelected12.Image = _cardSelected21.Image = _cardSelected22.Image = null;
-            _gameActive = false;
-            _yourTurn1.Visible = _yourTurn2.Visible = false;
+            _gameActive = _yourTurn1.Visible = _yourTurn2.Visible = false;
             _backgroundImage.Visible = true;
         }
     }
