@@ -61,7 +61,7 @@ namespace PairsAssignment
             this.BackgroundImage = new System.Windows.Forms.PictureBox();
             this.YourTurn1 = new System.Windows.Forms.PictureBox();
             this.YourTurn2 = new System.Windows.Forms.PictureBox();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.MainTLP = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.Player1NameLabel = new System.Windows.Forms.Label();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
@@ -78,7 +78,7 @@ namespace PairsAssignment
             ((System.ComponentModel.ISupportInitialize)(this.BackgroundImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn2)).BeginInit();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.MainTLP.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel4.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -339,10 +339,11 @@ namespace PairsAssignment
             // 
             this.BackgroundImage.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("BackgroundImage.BackgroundImage")));
             this.BackgroundImage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.BackgroundImage.Location = new System.Drawing.Point(295, 49);
+            this.BackgroundImage.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.BackgroundImage.Location = new System.Drawing.Point(3, 122);
             this.BackgroundImage.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.BackgroundImage.Name = "BackgroundImage";
-            this.BackgroundImage.Size = new System.Drawing.Size(743, 950);
+            this.BackgroundImage.Size = new System.Drawing.Size(228, 83);
             this.BackgroundImage.TabIndex = 5;
             this.BackgroundImage.TabStop = false;
             // 
@@ -369,35 +370,36 @@ namespace PairsAssignment
             this.YourTurn2.TabIndex = 12;
             this.YourTurn2.TabStop = false;
             // 
-            // tableLayoutPanel1
+            // MainTLP
             // 
-            this.tableLayoutPanel1.ColumnCount = 7;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel1.Controls.Add(this.CopyrightLabel, 5, 2);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.CardGrid, 3, 1);
-            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 5, 1);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 27);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 96F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1338, 996);
-            this.tableLayoutPanel1.TabIndex = 13;
+            this.MainTLP.ColumnCount = 7;
+            this.MainTLP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.MainTLP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18F));
+            this.MainTLP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.MainTLP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56F));
+            this.MainTLP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.MainTLP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18F));
+            this.MainTLP.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.MainTLP.Controls.Add(this.CopyrightLabel, 5, 2);
+            this.MainTLP.Controls.Add(this.tableLayoutPanel2, 1, 1);
+            this.MainTLP.Controls.Add(this.CardGrid, 3, 1);
+            this.MainTLP.Controls.Add(this.tableLayoutPanel3, 5, 1);
+            this.MainTLP.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.MainTLP.Location = new System.Drawing.Point(0, 27);
+            this.MainTLP.Name = "MainTLP";
+            this.MainTLP.RowCount = 3;
+            this.MainTLP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.MainTLP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 96F));
+            this.MainTLP.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 2F));
+            this.MainTLP.Size = new System.Drawing.Size(1338, 996);
+            this.MainTLP.TabIndex = 13;
             // 
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(52)))));
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.BackgroundImage, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.Player1NameLabel, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.CardsSelected1, 0, 6);
             this.tableLayoutPanel2.Controls.Add(this.Player1NameInput, 0, 1);
@@ -500,8 +502,7 @@ namespace PairsAssignment
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
             this.ClientSize = new System.Drawing.Size(1338, 1023);
-            this.Controls.Add(this.BackgroundImage);
-            this.Controls.Add(this.tableLayoutPanel1);
+            this.Controls.Add(this.MainTLP);
             this.Controls.Add(this.miniToolStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Location = new System.Drawing.Point(15, 15);
@@ -520,7 +521,7 @@ namespace PairsAssignment
             ((System.ComponentModel.ISupportInitialize)(this.BackgroundImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.YourTurn2)).EndInit();
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this.MainTLP.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel2.PerformLayout();
             this.tableLayoutPanel4.ResumeLayout(false);
@@ -542,7 +543,7 @@ namespace PairsAssignment
 
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
 
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel MainTLP;
 
         private System.Windows.Forms.PictureBox YourTurn2;
 

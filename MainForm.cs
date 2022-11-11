@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
@@ -36,12 +37,25 @@ namespace PairsAssignment
             for (int i = 1; i < 57; i++) Cards.AllCards.Add(GetImageFile("images\\" + i + ".png"));
 
             _game = new Game(this, CardGrid, CardSelected11, CardSelected12, CardSelected21, CardSelected22, PairsFoundLbl1,
-                PairsFoundLbl2, Player1NameInput, Player2NameInput, YourTurn1, YourTurn2, BackgroundImage);
+                PairsFoundLbl2, Player1NameInput, Player2NameInput, YourTurn1, YourTurn2);
 
             YourTurn1.Visible = YourTurn2.Visible = false;
             
             _game.SaveFileDialog.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";  // filter json files
             _game.OpenFileDialog.Filter = "JSON files (*.json)|*.json|All files (*.*)|*.*";
+
+            _addControl = BackgroundImage;
+            _removeControl = CardGrid;
+            SwapCenterControl();
+        }
+
+        private Control _addControl;
+        private Control _removeControl;
+        public void SwapCenterControl()
+        {
+            MainTLP.Controls.Remove(_removeControl);
+            MainTLP.Controls.Add(_addControl, 3, 1);
+            (_addControl, _removeControl) = (_removeControl, _addControl);
         }
 
         private void SaveGameButton_Click(object sender, EventArgs e)

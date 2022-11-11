@@ -11,7 +11,7 @@ namespace PairsAssignment
     {
         private int[,] _cards;
         private readonly TableLayoutPanel _cardGrid;
-        private readonly PictureBox _cardSelected11, _cardSelected12, _cardSelected21, _cardSelected22, _backgroundImage;
+        private readonly PictureBox _cardSelected11, _cardSelected12, _cardSelected21, _cardSelected22;
         private readonly Label _pairsFoundLbl1, _pairsFoundLbl2;
         private readonly TextBox _p1NameInput, _p2NameInput;
         private readonly PictureBox _yourTurn1, _yourTurn2;
@@ -23,7 +23,7 @@ namespace PairsAssignment
 
         public Game(MainForm mainForm, TableLayoutPanel cardGrid, PictureBox cardSelected11, PictureBox cardSelected12,
             PictureBox cardSelected21, PictureBox cardSelected22, Label pairsFoundLbl1, Label pairsFoundLbl2,
-            TextBox p1NameInput, TextBox p2NameInput, PictureBox yourTurn1, PictureBox yourTurn2, PictureBox backgroundImage)
+            TextBox p1NameInput, TextBox p2NameInput, PictureBox yourTurn1, PictureBox yourTurn2)
         {
             _mainForm = mainForm;
             _cardGrid = cardGrid;
@@ -33,7 +33,6 @@ namespace PairsAssignment
             _cardSelected22 = cardSelected22;
             _pairsFoundLbl1 = pairsFoundLbl1;
             _pairsFoundLbl2 = pairsFoundLbl2;
-            _backgroundImage = backgroundImage;
             _p1NameInput = p1NameInput;
             _p2NameInput = p2NameInput;
             _yourTurn1 = yourTurn1;
@@ -117,7 +116,8 @@ namespace PairsAssignment
                 else return;
             }
 
-            _backgroundImage.Visible = _yourTurn2.Visible = false;
+            _mainForm.SwapCenterControl();
+            _yourTurn2.Visible = false;
             _gameActive = _buttonsInactive = _playerOneTurn = _yourTurn1.Visible = true;
             _p1Score = _p2Score = 0;
 
@@ -330,7 +330,7 @@ namespace PairsAssignment
 
             // refill the game panel with cards
             _cards = gameData.Cards;
-            _backgroundImage.Visible = false;
+            _mainForm.SwapCenterControl();
             ResizeGrid((int) Math.Sqrt(_cards.Length));
             FillCardGrid(_cards);
             _gameActive = true;
@@ -361,7 +361,7 @@ namespace PairsAssignment
             _cardGrid.Controls.Clear();  // remove all cards
             _cardSelected11.Image = _cardSelected12.Image = _cardSelected21.Image = _cardSelected22.Image = null;
             _gameActive = _yourTurn1.Visible = _yourTurn2.Visible = false;
-            _backgroundImage.Visible = true;
+            _mainForm.SwapCenterControl();
         }
     }
 }
