@@ -316,9 +316,16 @@ namespace PairsAssignment
         {
             if (OpenFileDialog.ShowDialog() != DialogResult.OK) return;  // leave if the file path isn't okay
             string jsonText = File.ReadAllText(OpenFileDialog.FileName);
-            GameData gameData = JsonConvert.DeserializeObject<GameData>(jsonText);
             
-            if (gameData == null) return;  // no game in the save file
+            GameData gameData;
+            try {gameData = JsonConvert.DeserializeObject<GameData>(jsonText);}
+            catch (JsonReaderException)
+            {
+                MessageBox.Show("This file is not a valid save file!");
+                return;
+            }
+            
+            if (gameData == null) return;  // null check for IDE warnings
 
             ClearGame(false);
             
