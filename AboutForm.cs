@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace PairsAssignment;
 
-public partial class AboutPage : Form
+public partial class AboutForm : Form
 {
-    public AboutPage()
+    public AboutForm()
     {
         InitializeComponent();
     }

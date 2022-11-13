@@ -158,11 +158,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutPage.cs">
+    <Compile Include="AboutForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutPage.Designer.cs">
-      <DependentUpon>AboutPage.cs</DependentUpon>
+    <Compile Include="AboutForm.Designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Cards.cs" />
     <Compile Include="MainForm.cs">
@@ -173,22 +173,22 @@
     </Compile>
     <Compile Include="Game.cs" />
     <Compile Include="GameData.cs" />
-    <Compile Include="PlayerNameEntry.cs">
+    <Compile Include="NameEntryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PlayerNameEntry.Designer.cs">
-      <DependentUpon>PlayerNameEntry.cs</DependentUpon>
+    <Compile Include="NameEntryForm.Designer.cs">
+      <DependentUpon>NameEntryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="AboutPage.resx">
-      <DependentUpon>AboutPage.cs</DependentUpon>
+    <EmbeddedResource Include="AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PlayerNameEntry.resx">
-      <DependentUpon>PlayerNameEntry.cs</DependentUpon>
+    <EmbeddedResource Include="NameEntryForm.resx">
+      <DependentUpon>NameEntryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

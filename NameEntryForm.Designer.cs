@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace PairsAssignment;
 
-partial class PlayerNameEntry
+partial class NameEntryForm
 {
     /// <summary>
     /// Required designer variable.
@@ -31,7 +31,7 @@ partial class PlayerNameEntry
     /// </summary>
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlayerNameEntry));
+        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NameEntryForm));
         this.NameEntryLabel = new System.Windows.Forms.Label();
         this.NameEntry = new System.Windows.Forms.TextBox();
         this.OkayButton = new System.Windows.Forms.Button();
@@ -86,7 +86,7 @@ partial class PlayerNameEntry
         this.Controls.Add(this.NameEntry);
         this.Controls.Add(this.NameEntryLabel);
         this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-        this.Name = "PlayerNameEntry";
+        this.Name = "NameEntryForm";
         this.Text = "Enter Name";
         this.ResumeLayout(false);
         this.PerformLayout();

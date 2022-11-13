@@ -2,7 +2,7 @@ using System.ComponentModel;
 
 namespace PairsAssignment;
 
-partial class AboutPage
+partial class AboutForm
 {
     /// <summary>
     /// Required designer variable.
@@ -31,7 +31,7 @@ partial class AboutPage
     /// </summary>
     private void InitializeComponent()
     {
-        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutPage));
+        System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutForm));
         this.pictureBox1 = new System.Windows.Forms.PictureBox();
         this.label1 = new System.Windows.Forms.Label();
         this.label2 = new System.Windows.Forms.Label();
@@ -95,7 +95,7 @@ partial class AboutPage
         this.Controls.Add(this.pictureBox1);
         this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
         this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-        this.Name = "AboutPage";
+        this.Name = "AboutForm";
         this.Text = "About";
         ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
         this.ResumeLayout(false);

@@ -3,10 +3,10 @@ using System.Windows.Forms;
 
 namespace PairsAssignment;
 
-public partial class PlayerNameEntry : Form
+public partial class NameEntryForm : Form
 {
     private static bool _exitGameCreation;
-    private PlayerNameEntry()
+    private NameEntryForm()
     {
         InitializeComponent();
     }
@@ -30,11 +30,11 @@ public partial class PlayerNameEntry : Form
         string name = "";
         while (name == "" && !_exitGameCreation)  // continue asking for input unless they want to exit or have submitted a name
         {
-            PlayerNameEntry playerNameEntry = new();
-            playerNameEntry.NameEntryLabel.Text = "Please enter a name for player " + playerNumber + ":";
-            playerNameEntry.StartPosition = FormStartPosition.CenterParent;
-            playerNameEntry.ShowDialog(parent);
-            name = playerNameEntry.NameEntry.Text;
+            NameEntryForm nameEntryForm = new();
+            nameEntryForm.NameEntryLabel.Text = "Please enter a name for player " + playerNumber + ":";
+            nameEntryForm.StartPosition = FormStartPosition.CenterParent;
+            nameEntryForm.ShowDialog(parent);
+            name = nameEntryForm.NameEntry.Text;
         }
 
         return _exitGameCreation ? null : name;  // if they want to exit return null if not return the name

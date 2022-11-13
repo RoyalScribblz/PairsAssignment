@@ -20,10 +20,11 @@ namespace PairsAssignment
         public readonly OpenFileDialog OpenFileDialog = new();
         public readonly SaveFileDialog SaveFileDialog = new();
         private readonly MainForm _mainForm;
+        private readonly PictureBox _backImage;
 
         public Game(MainForm mainForm, TableLayoutPanel cardGrid, PictureBox cardSelected11, PictureBox cardSelected12,
             PictureBox cardSelected21, PictureBox cardSelected22, Label pairsFoundLbl1, Label pairsFoundLbl2,
-            TextBox p1NameInput, TextBox p2NameInput, PictureBox yourTurn1, PictureBox yourTurn2)
+            TextBox p1NameInput, TextBox p2NameInput, PictureBox yourTurn1, PictureBox yourTurn2, PictureBox backImage)
         {
             _mainForm = mainForm;
             _cardGrid = cardGrid;
@@ -37,6 +38,7 @@ namespace PairsAssignment
             _p2NameInput = p2NameInput;
             _yourTurn1 = yourTurn1;
             _yourTurn2 = yourTurn2;
+            _backImage = backImage;
         }
         
         /// <summary>Get the card ID of a button from the 2D array.</summary>
@@ -111,12 +113,12 @@ namespace PairsAssignment
             for (int nameInput = 0; nameInput < nameInputs.Length; nameInput++)
             {
                 if (nameInputs[nameInput].Text != "") continue;
-                string newName = PlayerNameEntry.GetName(_mainForm, (nameInput+1).ToString());
+                string newName = NameEntryForm.GetName(_mainForm, (nameInput+1).ToString());
                 if (newName != null) nameInputs[nameInput].Text = newName;
                 else return;
             }
 
-            _mainForm.SwapCenterControl();
+            _backImage.Visible = false;
             _yourTurn2.Visible = false;
             _gameActive = _buttonsInactive = _playerOneTurn = _yourTurn1.Visible = true;
             _p1Score = _p2Score = 0;
@@ -238,7 +240,7 @@ namespace PairsAssignment
                     // continue onto the next persons turn after a given amount of time
                     Task.Run(async delegate
                     {
-                        await Task.Delay(10000);
+                        await Task.Delay(100);
                         NextTurn(54);
                     });
                 }
@@ -249,7 +251,7 @@ namespace PairsAssignment
                 // continue onto the next persons turn after a given amount of time
                 Task.Run(async delegate
                 {
-                    await Task.Delay(10000);
+                    await Task.Delay(100);
                     NextTurn(55);
                 });
             }
@@ -330,7 +332,7 @@ namespace PairsAssignment
 
             // refill the game panel with cards
             _cards = gameData.Cards;
-            _mainForm.SwapCenterControl();
+            _backImage.Visible = false;
             ResizeGrid((int) Math.Sqrt(_cards.Length));
             FillCardGrid(_cards);
             _gameActive = true;
@@ -361,7 +363,7 @@ namespace PairsAssignment
             _cardGrid.Controls.Clear();  // remove all cards
             _cardSelected11.Image = _cardSelected12.Image = _cardSelected21.Image = _cardSelected22.Image = null;
             _gameActive = _yourTurn1.Visible = _yourTurn2.Visible = false;
-            _mainForm.SwapCenterControl();
+            _backImage.Visible = true;
         }
     }
 }

@@ -4,17 +4,40 @@
     <projectFile>PairsAssignment.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="Broke by swapping background image and cardgrid" />
+    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="shortened making several things equal to the same thing">
+      <change afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.AboutForm.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.NameEntryForm.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutPage.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutPage.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainForm.resx" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PairsAssignment.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PairsAssignment.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NameEntryForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NameEntryForm.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.resx" beforeDir="false" afterPath="$PROJECT_DIR$/NameEntryForm.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.AboutPage.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.MainForm.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.MainForm.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.PlayerNameEntry.resources" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1af41839925b4409b823837d7b5f29d691940/00/5916ef45/Image.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d97a3e9b3b244525be5c53d3b5e394ea5b3bb0/9c/d8735085/Button.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d97a3e9b3b244525be5c53d3b5e394ea5b3bb0/e9/9f02dc90/PictureBox.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Work/jlloyd/University Work/c# Projects/PairsAssignment/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,7 +57,6 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.4491363&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -88,9 +110,8 @@
       <workItem from="1667912911280" duration="8076000" />
       <workItem from="1667924486065" duration="12944000" />
       <workItem from="1668007290813" duration="727000" />
-      <workItem from="1668157293072" duration="2007000" />
-      <workItem from="1668167412595" duration="441000" />
-      <workItem from="1668178903360" duration="6585000" />
+      <workItem from="1668094372628" duration="596000" />
+      <workItem from="1668360631408" duration="3089000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666797086221</created>
@@ -176,28 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668007792293</updated>
     </task>
-    <task id="LOCAL-00013" summary="Flex resizing functionality on the AboutPage">
-      <created>1668010015358</created>
+    <task id="LOCAL-00013" summary="shortened making several things equal to the same thing">
+      <created>1668093831472</created>
       <option name="number" value="00013" />
       <option name="presentableId" value="LOCAL-00013" />
       <option name="project" value="LOCAL" />
-      <updated>1668010015358</updated>
+      <updated>1668093831472</updated>
     </task>
-    <task id="LOCAL-00014" summary="try catch for retrieve">
-      <created>1668157986123</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1668157986123</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Broke by swapping background image and cardgrid">
-      <created>1668189124088</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1668189124088</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,9 +239,7 @@
     <MESSAGE value="dont ask for name change on load game" />
     <MESSAGE value="Resize fix, dialog box cancel exits the new game" />
     <MESSAGE value="Inverted ClearGame askResetNames values to be correct" />
-    <MESSAGE value="Flex resizing functionality on the AboutPage" />
-    <MESSAGE value="try catch for retrieve" />
-    <MESSAGE value="Broke by swapping background image and cardgrid" />
-    <option name="LAST_COMMIT_MESSAGE" value="Broke by swapping background image and cardgrid" />
+    <MESSAGE value="shortened making several things equal to the same thing" />
+    <option name="LAST_COMMIT_MESSAGE" value="shortened making several things equal to the same thing" />
   </component>
 </project>

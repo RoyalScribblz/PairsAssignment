@@ -27,7 +27,6 @@ C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.ValueTuple.xml
 C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.csproj.CopyComplete
 C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\Newtonsoft.Json.dll
 C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\Newtonsoft.Json.xml
-C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.AboutPage.resources
 C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Diagnostics.DiagnosticSource.dll
 C:\Users\James\RiderProjects\PairsAssignment\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\bin\Debug\PairsAssignment.exe.config
@@ -65,4 +64,5 @@ C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssign
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.pdb
 C:\Work\jlloyd\University Work\c# Projects\PairsAssignment\obj\Debug\PairsAssignment.MainForm.resources
 C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.MainForm.resources
-C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.PlayerNameEntry.resources
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.AboutForm.resources
+C:\Users\James\RiderProjects\PairsAssignment\obj\Debug\PairsAssignment.NameEntryForm.resources
