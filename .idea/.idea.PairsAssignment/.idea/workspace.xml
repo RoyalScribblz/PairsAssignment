@@ -4,32 +4,7 @@
     <projectFile>PairsAssignment.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="shortened making several things equal to the same thing">
-      <change afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.AboutForm.resources" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.NameEntryForm.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutPage.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutPage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutPage.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainForm.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainForm.resx" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PairsAssignment.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PairsAssignment.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NameEntryForm.Designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/NameEntryForm.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerNameEntry.resx" beforeDir="false" afterPath="$PROJECT_DIR$/NameEntryForm.resx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.AboutPage.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.MainForm.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.MainForm.resources" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.PlayerNameEntry.resources" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" afterDir="false" />
-    </list>
+    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="fix background disappearing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +86,7 @@
       <workItem from="1667924486065" duration="12944000" />
       <workItem from="1668007290813" duration="727000" />
       <workItem from="1668094372628" duration="596000" />
-      <workItem from="1668360631408" duration="3089000" />
+      <workItem from="1668360631408" duration="3705000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666797086221</created>
@@ -204,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668093831472</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="fix background disappearing">
+      <created>1668363790593</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668363790593</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +222,7 @@
     <MESSAGE value="Resize fix, dialog box cancel exits the new game" />
     <MESSAGE value="Inverted ClearGame askResetNames values to be correct" />
     <MESSAGE value="shortened making several things equal to the same thing" />
-    <option name="LAST_COMMIT_MESSAGE" value="shortened making several things equal to the same thing" />
+    <MESSAGE value="fix background disappearing" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix background disappearing" />
   </component>
 </project>

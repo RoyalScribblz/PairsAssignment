@@ -240,7 +240,7 @@ namespace PairsAssignment
                     // continue onto the next persons turn after a given amount of time
                     Task.Run(async delegate
                     {
-                        await Task.Delay(100);
+                        await Task.Delay(10000);
                         NextTurn(54);
                     });
                 }
@@ -251,7 +251,7 @@ namespace PairsAssignment
                 // continue onto the next persons turn after a given amount of time
                 Task.Run(async delegate
                 {
-                    await Task.Delay(100);
+                    await Task.Delay(10000);
                     NextTurn(55);
                 });
             }
