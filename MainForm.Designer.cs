@@ -375,10 +375,11 @@ namespace PairsAssignment
             this.YourTurn2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(54)))));
             this.YourTurn2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("YourTurn2.BackgroundImage")));
             this.YourTurn2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.YourTurn2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.YourTurn2.Location = new System.Drawing.Point(18, 4);
             this.YourTurn2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.YourTurn2.Name = "YourTurn2";
-            this.YourTurn2.Size = new System.Drawing.Size(218, 145);
+            this.YourTurn2.Size = new System.Drawing.Size(221, 147);
             this.YourTurn2.TabIndex = 12;
             this.YourTurn2.TabStop = false;
             // 

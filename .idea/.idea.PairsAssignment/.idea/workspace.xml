@@ -4,15 +4,17 @@
     <projectFile>PairsAssignment.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="fix background disappearing" />
+    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="put timer back to 10 seconds">
+      <change afterPath="$PROJECT_DIR$/bin/Debug/Debug.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.Designer.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/James/RiderProjects/PairsAssignment/Game.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -87,6 +89,7 @@
       <workItem from="1668007290813" duration="727000" />
       <workItem from="1668094372628" duration="596000" />
       <workItem from="1668360631408" duration="3705000" />
+      <workItem from="1668380242189" duration="766000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666797086221</created>
@@ -186,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668363790593</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="put timer back to 10 seconds">
+      <created>1668380263393</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1668380263393</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +233,7 @@
     <MESSAGE value="Inverted ClearGame askResetNames values to be correct" />
     <MESSAGE value="shortened making several things equal to the same thing" />
     <MESSAGE value="fix background disappearing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix background disappearing" />
+    <MESSAGE value="put timer back to 10 seconds" />
+    <option name="LAST_COMMIT_MESSAGE" value="put timer back to 10 seconds" />
   </component>
 </project>
