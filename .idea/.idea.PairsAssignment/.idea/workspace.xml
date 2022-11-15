@@ -4,9 +4,136 @@
     <projectFile>PairsAssignment.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="put timer back to 10 seconds">
-      <change afterPath="$PROJECT_DIR$/bin/Debug/Debug.zip" afterDir="false" />
+    <list default="true" id="624b0b5c-e47b-48a2-b11a-ef7a6b99cb26" name="Changes" comment="broke card grid by swapping control with thingy">
+      <change afterPath="$PROJECT_DIR$/images/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/19.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/20.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/23.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/25.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/27.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/30.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/33.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/34.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/36.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/39.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/40.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/42.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/48.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/55.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/56.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2022_14_25__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2022_14_25__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2022_18_01__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/shelf/Uncommitted_changes_before_Update_at_13_11_2022_18_01__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PairsAssignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AboutForm.resx" beforeDir="false" afterPath="$PROJECT_DIR$/AboutForm.resx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MainForm.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainForm.resx" beforeDir="false" afterPath="$PROJECT_DIR$/MainForm.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PairsAssignment.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PairsAssignment.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/PairsAssignment.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/26.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/27.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/28.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/30.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/31.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/33.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/34.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/35.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/36.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/37.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/38.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/40.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/41.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/42.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/43.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/44.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/45.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/47.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/48.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/49.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/52.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/53.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/54.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/55.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/56.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/images/9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.AboutForm.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.AboutForm.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.MainForm.resources" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.MainForm.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/PairsAssignment.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +141,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/James/RiderProjects/PairsAssignment/Game.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1af41839925b4409b823837d7b5f29d691940/00/5916ef45/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d97a3e9b3b244525be5c53d3b5e394ea5b3bb0/9c/d8735085/Button.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/d97a3e9b3b244525be5c53d3b5e394ea5b3bb0/e9/9f02dc90/PictureBox.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -90,6 +219,8 @@
       <workItem from="1668094372628" duration="596000" />
       <workItem from="1668360631408" duration="3705000" />
       <workItem from="1668380242189" duration="766000" />
+      <workItem from="1668507849219" duration="633000" />
+      <workItem from="1668517237860" duration="2200000" />
     </task>
     <task id="LOCAL-00001" summary="fix">
       <created>1666797086221</created>

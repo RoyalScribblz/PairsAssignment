@@ -34,8 +34,8 @@ partial class AboutForm
         System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutForm));
         this.pictureBox1 = new System.Windows.Forms.PictureBox();
         this.label1 = new System.Windows.Forms.Label();
-        this.label2 = new System.Windows.Forms.Label();
         this.AboutOkay = new System.Windows.Forms.Button();
+        this.textBox1 = new System.Windows.Forms.TextBox();
         ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
         this.SuspendLayout();
         // 
@@ -60,17 +60,6 @@ partial class AboutForm
         this.label1.TabIndex = 1;
         this.label1.Text = "Pairs";
         // 
-        // label2
-        // 
-        this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-        this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-        this.label2.ForeColor = System.Drawing.Color.White;
-        this.label2.Location = new System.Drawing.Point(357, 81);
-        this.label2.Name = "label2";
-        this.label2.Size = new System.Drawing.Size(388, 311);
-        this.label2.TabIndex = 2;
-        this.label2.Text = resources.GetString("label2.Text");
-        // 
         // AboutOkay
         // 
         this.AboutOkay.ForeColor = System.Drawing.Color.Black;
@@ -83,14 +72,28 @@ partial class AboutForm
         this.AboutOkay.UseVisualStyleBackColor = true;
         this.AboutOkay.Click += new System.EventHandler(this.AboutOkay_Click);
         // 
-        // AboutPage
+        // textBox1
+        // 
+        this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
+        this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+        this.textBox1.ForeColor = System.Drawing.Color.White;
+        this.textBox1.Location = new System.Drawing.Point(357, 83);
+        this.textBox1.Multiline = true;
+        this.textBox1.Name = "textBox1";
+        this.textBox1.ReadOnly = true;
+        this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+        this.textBox1.Size = new System.Drawing.Size(377, 309);
+        this.textBox1.TabIndex = 4;
+        this.textBox1.Text = resources.GetString("textBox1.Text");
+        // 
+        // AboutForm
         // 
         this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(9)))), ((int)(((byte)(17)))), ((int)(((byte)(17)))));
         this.ClientSize = new System.Drawing.Size(767, 458);
+        this.Controls.Add(this.textBox1);
         this.Controls.Add(this.AboutOkay);
-        this.Controls.Add(this.label2);
         this.Controls.Add(this.label1);
         this.Controls.Add(this.pictureBox1);
         this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -99,11 +102,12 @@ partial class AboutForm
         this.Text = "About";
         ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
         this.ResumeLayout(false);
+        this.PerformLayout();
     }
 
-    private System.Windows.Forms.Button AboutOkay;
+    private System.Windows.Forms.TextBox textBox1;
 
-    private System.Windows.Forms.Label label2;
+    private System.Windows.Forms.Button AboutOkay;
 
     private System.Windows.Forms.Label label1;
 

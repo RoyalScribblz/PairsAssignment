@@ -984,7 +984,7 @@
         kkkbOob9U2Nj7skiZPrGxsb942N+vnvt8iPTt8l/7E13/wD/2Q==
 </value>
   </data>
-  <data name="label2.Text" xml:space="preserve">
+  <data name="textBox1.Text" xml:space="preserve">
     <value>This application was developed by James Lloyd as an assigment for DTSP at Sheffield Hallam University, for the Programming Fundamentals module.
 
 The game window is resizeable by resizing the window. The elements self correct when the resize drag is completed.
